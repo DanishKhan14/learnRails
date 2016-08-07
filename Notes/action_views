@@ -1,0 +1,4 @@
+Final HTML output is a composition of three Rails elements: Templates, Partials and Layouts. Below is a brief overview of each of them.
+
+Templates
+Action View templates can be written in several ways. If the template file has a .erb extension then it uses a mixture of ERB (Embedded Ruby) and HTML. If the template file has a .builder extension then the Builder::XmlMarkup library is used.
