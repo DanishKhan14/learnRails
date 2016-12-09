@@ -1,0 +1,25 @@
+Fault Tolerance:
+----------------------
+What does hadoop or spark do when a node fails ?
+What does hadoop or spark do when a straggler is identified ?
+
+Consistency:
+-----------------
+Try out different models of consistency:
+Sync, Async, Bounded Delay, Batching, Estimated batching ?
+
+Measurements:
+--------------------
+Time per epoch
+
+Fix number of epochs: Vary batch size: bounded delay
+
+Back of the envelop calculations for bandwidth requirements
+
+Batch Size vs Required Bandwidth
+
+Minimum mini-batch size used by a system so that it can converge to expected accuracy while observing speedup ?
+
+Accuracy vs number of number of workers: Show that parameter server does not introduce accuracy loss 
+
+Can we run using docker ?
